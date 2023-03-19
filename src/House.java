@@ -1,13 +1,13 @@
 public abstract class House {
 
-  private Home address;
+  private String address;
 
-  public Home(Home address) {
+  public Home(String address) {
     this.address = address;
   }
 }
 
-  public setHome(Home address) {
+  public setHome(String address) {
     address = address;
   }
 
