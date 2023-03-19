@@ -1,6 +1,8 @@
 public class Flats extends House {
-  public Flats(Flats address) {
-    super(address);
+
+  private int entrancesNumber;
+  public Flats(Flats address, int entrancesNumber) {
+    super(address, entrancesNumber);
   }
 
 }
