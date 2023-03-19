@@ -9,6 +9,6 @@ public class Flats extends House {
 
   @Override
   public String toString(){
-    return "Адрес: " + getHome() + "Количество подъездов: " + entrancesNumber;
+    return "Адрес: " + getHome() + " Количество подъездов: " + entrancesNumber;
   }
 }
