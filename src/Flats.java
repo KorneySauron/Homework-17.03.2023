@@ -7,4 +7,8 @@ public class Flats extends House {
     this.entrancesNumber = entrancesNumber;
   }
 
+  @Override
+  public String toString(){
+    return "Адрес: " + getHome() + "Количество подъездов: " + entrancesNumber;
+  }
 }
