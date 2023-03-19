@@ -1,14 +1,13 @@
 import java.io.*;
 
 public class Main {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     System.out.print("Введите название вашего дома (многоквартирного): ");
-    String FLatName = br.readLine();
+    String flatAdress = br.readLine();
     System.out.print("Введите количество подъездов: ");
-    String entrancesNumber = br.readLine;
-    Flats userFlats = new Flats(FlatName, entrancesNumber)
+    int entrancesNumber = Integer.parseInt(br.readLine());
 
-    System.out.println
+    Flats userFlat= new Flats(flatAdress, entrancesNumber);
   }
 }

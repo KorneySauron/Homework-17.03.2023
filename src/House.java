@@ -2,15 +2,16 @@ public abstract class House {
 
   private String address;
 
-  public Home(String address) {
+  public House(String address) {
     this.address = address;
   }
+
+
+  public void setHome(String address) {
+    this.address = address;
+  }
+
+  public String getHome() {
+    return address;
+  }
 }
-
-  public setHome(String address) {
-    address = address;
-  }
-
-  public getHome() {
-    return.address;
-  }

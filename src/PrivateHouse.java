@@ -1,5 +1,5 @@
 public class PrivateHouse extends House {
-  public PrivateHouse (address){
+  public PrivateHouse (String address){
     super(address);
   }
 }

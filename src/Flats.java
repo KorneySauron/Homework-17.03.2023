@@ -1,8 +1,10 @@
 public class Flats extends House {
 
-  private int entrancesNumber;
+  private final int entrancesNumber;
+
   public Flats(String address, int entrancesNumber) {
-    super(address, entrancesNumber);
+    super(address);
+    this.entrancesNumber = entrancesNumber;
   }
 
 }
