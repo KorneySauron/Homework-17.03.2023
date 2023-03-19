@@ -14,4 +14,9 @@ public abstract class House {
   public String getHome() {
     return address;
   }
+
+  public abstract void destroyPHouse(PrivateHouse pHouse);
+
+  public abstract void destroyFlat(Flats flat);
+
 }

@@ -7,8 +7,23 @@ public class Flats extends House {
     this.entrancesNumber = entrancesNumber;
   }
 
+  public int getEntrancesNumber() {
+    return entrancesNumber;
+  }
+
   @Override
-  public String toString(){
+  public String toString() {
     return "Адрес: " + getHome() + " Количество подъездов: " + entrancesNumber;
+  }
+
+  @Override
+  public void destroyFlat(Flats flats) {
+    System.out.println("Вы снесли многоквартирный дом. " + flats.getEntrancesNumber() + " подъездов!");
+    flats = null;
+  }
+
+  @Override
+  public void destroyPHouse(PrivateHouse pHouse) {
+
   }
 }

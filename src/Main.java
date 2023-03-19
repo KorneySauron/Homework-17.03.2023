@@ -26,8 +26,10 @@ public class Main {
     houses.add(house1);
     houses.add(house2);
 
-    for (House house : houses){
+    for (House house : houses) {
       System.out.println(house);
     }
+    house1.destroyPHouse(house1);
+    userFlat.destroyFlat(userFlat);
   }
 }
