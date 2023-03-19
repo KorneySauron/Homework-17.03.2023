@@ -26,6 +26,8 @@ public class Main {
     houses.add(house1);
     houses.add(house2);
 
-
+    for (House house : houses){
+      System.out.println(house);
+    }
   }
 }
